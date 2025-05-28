@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+/* @tailwind directives removed because Tailwind CSS is not configured to process this file */
+
+.hero-bg {
+  background-image: url("/images/healthcare-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-bg {
+  background-image: url("/images/medical-tech-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
