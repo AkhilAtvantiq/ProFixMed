@@ -11,7 +11,7 @@ const About = () => (
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          Our Vision
+          Our Story
         </motion.h2>
         <motion.p
           initial={{ y: 50, opacity: 0 }}
@@ -25,9 +25,10 @@ const About = () => (
             color: "#4a5568",
           }}
         >
-          ProFixMed.AI was founded by physicians frustrated by paperwork
-          stealing time from patients. We created AVA to redefine clinical
-          efficiency.
+          ProFixMed.AI was founded by physicians driven to solve the
+          overwhelming burden of documentation, charting, and paperwork that
+          steals time from patient care. Our mission is to restore focus to what
+          matters most: patients.
         </motion.p>
         <motion.p
           initial={{ y: 50, opacity: 0 }}

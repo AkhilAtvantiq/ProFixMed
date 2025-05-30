@@ -26,6 +26,29 @@ const Contact = () => (
           Enhance efficiency, reduce burnout, and boost revenue with
           ProFixMed.AI’s AI solutions.
         </motion.p>
+        <motion.p
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.8 }}
+          style={{
+            maxWidth: "36rem",
+            margin: "1rem auto",
+            fontSize: "1.125rem",
+            color: "#4a5568",
+          }}
+        >
+          Reach out to us at{" "}
+          <a
+            href="mailto:info@profixmed.com"
+            style={{
+              color: "#1b4965",
+              textDecoration: "underline",
+              fontWeight: 600,
+            }}
+          >
+            info@profixmed.com
+          </a>
+        </motion.p>
         <motion.div
           className="contact-buttons"
           initial={{ y: 50, opacity: 0 }}

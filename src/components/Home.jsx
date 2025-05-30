@@ -153,7 +153,7 @@ const Home = () => (
               desc: "Faster collections with optimized billing.",
             },
             {
-              title: "30% Fewer Denials",
+              title: "Fewer Denials",
               desc: "Minimize claim rejections on first pass.",
             },
           ].map((result, index) => (
